@@ -1,0 +1,45 @@
+
+
+.myDiv {
+  border: 15px outset black;
+  background-color: #917FB3;    
+  text-align: center;
+  font-family: "New Roman Times", 'Times New Roman', Times, serif;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color:white;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+ }
+.grid-item {
+  background-color: pink;(255, 255, 255, 0.8);
+  border-size: 10px; rgba(0, 0, 0, 0.8);
+  
+    padding: 20px;
+  font-size: 30px;
+  text-align: center;
+ }
+
+}
+#container {
+  display: block;
+  background-color:#E5D1FA;
+  padding: 10px;
+}
+.button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
